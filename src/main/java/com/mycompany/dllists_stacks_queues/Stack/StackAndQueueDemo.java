@@ -29,7 +29,11 @@ public class StackAndQueueDemo {
       numStack.pop();
       System.out.print("Stack after second pop:       ");
       numStack.print();
-      
+       System.out.println("is the stack empty?" +numStack.isEmpty());
+       System.out.println("How many in the stack?" +numStack.getSize());
+     System.out.println("What is the peek" + numStack.peek());
+       
+       
       // Print a blank line before the Queue demo
       System.out.println();
       
@@ -57,5 +61,14 @@ public class StackAndQueueDemo {
       numQueue.dequeue();
       System.out.print("Queue after second dequeue:   ");
       numQueue.print();
+      
+      
+
+      
+      
+      
+      
+      
+      
    }
 }
